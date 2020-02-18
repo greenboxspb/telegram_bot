@@ -247,3 +247,5 @@ img_favorite_obj_pars()
 print(img_favorite_obj_pars())
 
 # print(img_favorite_obj_pars())
+
+# некоторые изменения в ветке мастер
