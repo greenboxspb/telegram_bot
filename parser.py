@@ -247,3 +247,8 @@ img_favorite_obj_pars()
 print(img_favorite_obj_pars())
 
 # print(img_favorite_obj_pars())
+
+
+
+
+# в тестовой ветке был сделан коммит, в мастере ничего нет, делаем изменения и коммитим мастер
