@@ -47,14 +47,14 @@ def get_updates():
 # ЗДЕСЬ ОТПРАВЛЯЕТСЯ ОТВЕТ ПОЛЬЗОВАТЕЛЮ
 def get_message(chat_id, text):
     url = URL + 'sendMessage'
-    # reply_markup = {
-    #     'keyboard': [['Сейчас 💩'], ['Потом 🌈'], ['Спасибо, брат ✊']],
-    #     'resize_keyboard': True,
-    # }
+    reply_markup = {
+        'keyboard': [['Сейчас 💩'], ['Потом 🌈'], ['Интересное 👀'], ['Спасибо, брат ✊']],
+        'resize_keyboard': True,
+    }
     answer = {
         'chat_id': chat_id,
         'text': text,
-        # 'reply_markup': reply_markup,
+        'reply_markup': reply_markup,
     }
     r = requests.post(url, proxies=proxies, json=answer)
 
