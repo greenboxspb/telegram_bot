@@ -20,6 +20,8 @@ url_future_objects = parser.url_future_objects
 token = key.token
 URL = 'https://api.telegram.org/bot' + token + '/'
 
+# Ports currently supported for Webhooks: 443, 80, 88, 8443
+
 proxies = {
     'http': '200.89.178.156:80',
     'https': '200.89.178.156:80',
